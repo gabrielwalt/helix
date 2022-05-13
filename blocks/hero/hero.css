@@ -1,0 +1,12 @@
+main .hero {
+    position: relative;
+}
+
+main .hero > div > div:first-child {
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
+    right: 1em;
+    padding: 0 1em 0.5em;
+    background: #ffffff88
+}
