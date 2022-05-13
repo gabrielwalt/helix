@@ -1,9 +1,29 @@
+
 * {
     box-sizing: border-box;
 }
 
 body {
-    background: silver;
+    background: #fff;
     font-family: 'adobe clean';
     margin: 0;
+    padding: 1em
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero > div > div:first-child {
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
+    right: 1em;
+    padding: 0 1em 0.5em;
+    background: #ffffff88
 }
